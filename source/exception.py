@@ -2,7 +2,7 @@
 # (such as the file name and line number) whenever an exception occurs in the project.
 
 import sys
-from src.logger import logging
+from source.logger import logging
 
 def error_message_detail(error,error_detail:sys):
     _,_,exc_tb=error_detail.exc_info()
