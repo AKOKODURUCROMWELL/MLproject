@@ -1,3 +1,5 @@
+#app.py file : To create and run the Flask web application that provides 
+# a user interface for accepting input data and displaying model predictions.
 # application.py: duplicate of app.py created specifically for AWS Elastic Beanstalk deployment,
 #  since Beanstalk's default configuration expects the entry point file to be named application.py
 from flask import Flask,request,render_template
